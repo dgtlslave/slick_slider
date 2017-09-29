@@ -44,7 +44,7 @@ body {
 			content: url(../img/triangle.svg);
 			position: absolute;
 			top: 116px;
-			left: -46px;
+			left: -30px;
 		}
 	}
 
@@ -53,8 +53,18 @@ body {
 		flex-direction: row;
 
 		&-item {
-			margin: 10px 22px 10px 22px;
-			
+			margin: 105px 22px 10px 22px;
+			position: relative;
+			z-index: -1;
+			overflow: hidden; //уберает оверлай!!!
+
+			&-overflow {
+				position: absolute;
+				background-color: #1bf1ad;
+				width: 440px;
+				height: 400px;
+				z-index: 1;
+			}
 		}
 	}
 
