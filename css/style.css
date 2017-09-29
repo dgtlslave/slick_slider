@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; }
+
+.work {
+  background: #fff; }
+  .work__discription {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.17px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    position: relative; }
+    .work__discription::after {
+      content: url(../img/cross_plus.svg);
+      position: absolute;
+      top: -30px;
+      left: 910px; }
+  .work__title {
+    font-size: 86px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #000;
+    max-width: 1040px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative; }
+    .work__title::after {
+      content: url(../img/triangle.svg);
+      position: absolute;
+      top: 116px;
+      left: -46px; }
+  .work__slider {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .work__slider-item {
+      margin: 10px 22px 10px 22px; }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
