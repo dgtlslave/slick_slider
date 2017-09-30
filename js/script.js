@@ -6,8 +6,9 @@ $(document).ready(function(){
   autoplaySpeed: 2000,
   centerPadding: '10px',
   variableWidth: true,
-  slidesToShow: 3,
-  slidesToScroll: 1
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  arrows: true
   });
 
 });
